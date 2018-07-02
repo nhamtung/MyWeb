@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Tạo bảng trong HTML</Title> 
+		<meta http-equiv="refresh" content="1" />
+
+	</head>
+	<body>
+		<h1>Tạo bảng trong HTML</h1>
+		<table border="1">
+			<tr align="centrel">
+				<td>STT</td>
+				<td>Họ và tên</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Nhâm Văn Tùng</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Phan Thị Nhàn</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>I love you</td>
+			</tr>
+		</table>
+
+		<h1>Tiêu đề bảng trong HTML</h1>
+		<h1>Hai thuộc tính cellpadding và cellspacing trong HTML</h1>
+		<table border="1" cellpadding="5" cellspacing="5" >
+			<tr>
+				<th>Ten nhan vien</th>
+				<th>Luong</th>
+			</tr>
+			<tr>
+				<td>Minh Chinh</td>
+				<td>5000</td>
+			</tr>
+			<tr>
+				<td>Duy Manh</td>
+				<td>7000</td>
+			</tr>
+		</table>
+
+		<h1>Thuộc tính colspan và rowspan trong HTML</h1>
+		<h1>Xác định background cho bảng trong HTML</h1>
+		<table border="1" bordercolor="green" bgcolor="yellow" background="D:/MyFolder/TUNG/MyWeb/MyHtml/Basic/Resource/Image/che-tan-cuong-thai-nguyen-1.jpg">
+			<tr>
+				<th>Column 1</th>
+				<th>Column 2</th>
+				<th>Column 3</th>
+			</tr>
+			<tr><td rowspan="2">Row 1 Cell 1</td><td>Row 1 Cell 2</td><td>Row 1 Cell 3</td></tr>
+			<tr><td>Row 2 Cell 2</td><td>Row 2 Cell 3</td></tr>
+			<tr><td colspan="3">Row 3 Cell 1</td></tr>
+		</table>
+
+		<h1>Chiều cao và độ rộng bảng trong HTML</h1>
+		<table border="1" width="400" height="150">
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+			</tr>
+		</table>
+
+		<h1>Phụ đề bảng trong HTML</h1>
+		<table border="1" width="100%">
+		<caption>Bảng 1: Vi du phu de bang</caption>
+			<tr>
+				<td>row 1, column 1</td><td>row 1, columnn 2</td>
+			</tr>
+			<tr>
+				<td>row 2, column 1</td><td>row 2, columnn 2</td>
+			</tr>
+		</table>
+
+		<h1>Đầu, thân và chân bảng trong HTML</h1>
+		<table border="1" width="100%">
+			<thead>
+				<tr>
+					<td colspan="4">Day la phan tieu de bang</td>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="4">Day la phan chan bang</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+					<td>Cell 4</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h1>Lồng bảng vào trong bảng trong HTML</h1>
+		<table border="1" width="100%">
+			<tr>
+				<td>
+				   <table border="1" width="100%">
+					   <tr>
+						   <th>Ten nhan vien</th>
+						   <th>Luong</th>
+					   </tr>
+					   <tr>
+						   <td>Minh Chinh</td>
+						   <td>5000</td>
+					   </tr>
+					   <tr>
+						   <td>Duy Manh</td>
+						   <td>7000</td>
+					   </tr>
+				   </table>
+				</td>
+			</tr>
+			<tr>
+				<td>Cell 1</td>
+				<td>Cell 2</td>
+				<td>Cell 3</td>
+				<td>Cell 4</td>
+			</tr>
+		</table>
+	</body>
+</html>
