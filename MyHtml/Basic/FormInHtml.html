@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Form trong HTML</Title> 
+		<meta http-equiv="refresh" content="10" />
+		<base href="../Basic/">
+	</head>
+	<body>
+		<a href="https://vietjack.com/html/form_trong_html.jsp" target="_blank">Form in HTML</a>
+
+<!-- 		<form action="Script URL" method="GET|POST">
+    		các phần tử font, chẳng hạn như input, textarea ...
+		</form> -->
+
+		<h1>Text Input trong HTML</h1>
+		<h3>Text Input một dòng đơn trong HTML</h3>
+		<form >
+			First name:  <input type="text" name="first_name" />
+			<br>
+			Last name:  <input type="text" name="last_name" />
+		</form>
+
+		<h3>Password Input trong HTML</h3>
+		<form >
+			User ID :  <input type="text" name="user_id" />
+			<br>
+			Password:  <input type="password" name="password" />
+		</form>
+
+		<h3>Text Input đa dòng trong HTML</h3>
+		<form>
+			Mieu ta: <br />
+			<textarea rows="5" cols="50" name="description">
+				Ban nhap phan mieu ta tai day...
+			</textarea>
+		</form>
+
+		<h1>Checkbox trong HTML</h1>
+		<form>
+			<input type="checkbox" name="maths" value="on"> Maths
+			<input type="checkbox" name="physics" value="on"> Physics
+		</form>
+
+		<h1>Radio Button trong HTML</h1>
+		<form>
+			<input type="radio" name="subject" value="maths"> Maths
+			<input type="radio" name="subject" value="physics"> Physics
+		</form>
+
+		<h1>Select Box trong HTML</h1>
+		<form>
+			<select name="dropdown">
+				<option value="Maths" selected>Maths</option>
+				<option value="Physics">Physics</option>
+			</select>
+		</form>
+
+		<h1>File Upload Box trong HTML</h1>
+		<form>
+			<input type="file" name="fileupload" accept="image/*" />
+		</form>
+
+		<h1>Button trong HTML</h1>
+		<form>
+			<input type="submit" name="submit" value="Submit" />
+			<input type="reset" name="reset" value="Reset" />
+			<input type="button" name="ok" value="OK"  />
+			<input type="image" name="imagebutton" src="../Basic/Resource/Image/blank-photo-frames-2023679__340.png" />
+		</form>
+
+		<h1>Hidden Form trong HTML</h1>
+		<form>
+			<p>Day la trang so 10</p>
+				<input type="hidden" name="pagename" value="10" />
+				<input type="submit" name="submit" value="Submit" />
+				<input type="reset" name="reset"  value="Reset" />
+		</form>
+	</body>
+</html>
